@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>
+                Student Admission Form
+            </legend>
+            <fieldset>
+                <legend>
+                    Personal Information
+                </legend>
+                <label for="fullName">Full Name: </label>
+                <input type="text" name="FullName" id="fullName" placeholder="Enter Full Name"> <br><br>
+                <label for="fatherName">Father's Name: </label>
+                <input type="text" name="FatherName" id="fatherName" placeholder="Enter Father's Name"> <br><br>
+                <label for="email">Email: </label>
+                <input type="email" name="Email" id="email" placeholder="example@gmail.com"> <br><br>
+                <label for="password">Password: </label>
+                <input type="password" name="Password" id="password" placeholder="Enter Password"><br><br>
+                <label for="confirmPassword">Confirm Password: </label>
+                <input type="password" name="ConfirmPassword" id="confirmPassword" placeholder="Confirm Password"><br><br>
+                <label for="age">Age: </label>
+                <input type="number" name="Age" id="age" placeholder="Enter Age"><br><br>
+                <label for="dob">Date of Birth: </label>
+                <input type="date" name="DOB" id="dob"><br><br>
+                <label for="cnic">CNIC: </label>
+                <input type="number" name="CNIC" id="cnic" placeholder="Enter 13 Digit CNIC"><br><br>
+                <label for="telephone">Telephone: </label>
+                <input type="tel" name="Telephone" id="telephone" placeholder="03XXXXXXXXX"><br><br>
+                <label for="gender">Gender: </label>
+                <input type="radio" name="Gender" id="gender" value="Male"> Male
+                <input type="radio" name="Gender" id="gender" value="Female"> Female
+                <input type="radio" name="Gender" id="gender" value="Other"> Other <br><br>
+                <label for="profilePic">Profile Picture: </label>
+                <input type="file" name="ProfilePic" id="profilePic" accept=".png .jpg"> <br><br>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Academic Information
+                </legend>
+                <label for="studentID">Student ID: </label>
+                <input type="number" name="Student ID" id="studentID" placeholder="Enter Student ID"><br><br>
+                <label for="peviousSchool/College">Previous School/College: </label>
+                <input type="text" name="Previous School/College" id="previousSchool/College" placeholder="Enter School/College Name"> <br><br>
+                <label for="lastQualification">Last Qualification: </label>
+                <input type="text" name="LastQualification" id="lastQualification" placeholder="e.g. Matric, Intermediate"><br><br>
+                <label for="marksObtained">Marks Obtained: </label>
+                <input type="text" name="MarksObtained" id="marksObtained"> <br><br>
+                <label for="totalMarks">Total Marks: </label>
+                <input type="text" name="TotalMarks" id="totalMarks"> <br><br>
+                <label for="percentage">Percentage: </label>
+                <input type="text" name="Percentage" id="percentage" placeholder="0-100"> <br><br>
+                <label for="grade">Grade: </label>
+                <input type="radio" name="Grade" id="grade" value="A+"> A+
+                <input type="radio" name="Grade" id="grade" value="A"> A
+                <input type="radio" name="Grade" id="grade" value="B"> B
+                <input type="radio" name="Grade" id="grade" value="C"> C
+                <input type="radio" name="Grade" id="grade" value="D"> D
+                <input type="radio" name="Grade" id="grade" value="E"> E
+                <input type="radio" name="Grade" id="grade" value="F"> F <br><br>
+                <label for="passingYear">Passing Year: </label>
+                <input type="number" name="Passing Year" id="passingYear"> <br><br>
+                <label for="majorSubject">Major Subject: </label>
+                <input type="text" name="Major Subject" id="majorSubject" placeholder="Enter Major Subject"> <br><br>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Course Selection
+                </legend> <br>
+                <label for="selectCourses:">Select Your Courses:</label> <br><br>
+                <input type="checkbox" name="Select Courses" id="selectCourses:" value="HTML & CSS">HTML & CSS <br>
+                <input type="checkbox" name="Select Courses" id="selectCourses:" value="JavaScript">JavaScript <br>
+                <input type="checkbox" name="Select Courses" id="selectCourses:" value="Python">Python <br>
+                <input type="checkbox" name="Select Courses" id="selectCourses:" value="C++">C++ <br>
+                <input type="checkbox" name="Select Courses" id="selectCourses:" value="Java">Java <br>
+                <input type="checkbox" name="Select Courses" id="selectCourses:" value="Database">Databse <br>
+                <input type="checkbox" name="Select Courses" id="selectCourses:" value="Web Development">Web Development <br><bR>
+                <label for="preferredCourses">Preferred Courses: </label>
+                <input type="radio" name="Preferred Course" id="preferredCourses" value="HTML & CSS"> HTML & CSS
+                <input type="radio" name="Preferred Course" id="preferredCourses" value="JavaScript"> JavaScript
+                <input type="radio" name="Preferred Course" id="preferredCourses" value="Python"> Python
+                <input type="radio" name="Preferred Course" id="preferredCourses" value="Web Development"> Web Development <br><br>
+
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Hobbies & Interests
+                </legend>
+                <label for="hobbies">Hobbies: </label> <br><br>
+                <input type="checkbox" name="Hobbies" id="hobbies" value="Circket"> Circket
+                <input type="checkbox" name="Hobbies" id="hobbies" value="Football"> Football
+                <input type="checkbox" name="Hobbies" id="hobbies" value="Reading"> Reading
+                <input type="checkbox" name="Hobbies" id="hobbies" value="Gaming"> Gaming
+                <input type="checkbox" name="Hobbies" id="hobbies" value="Music"> Music
+                <input type="checkbox" name="Hobbies" id="hobbies" value="Photography"> Photography
+                <input type="checkbox" name="Hobbies" id="hobbies" value="Traveling"> Traveling
+                <input type="checkbox" name="Hobbies" id="hobbies" value="Coding"> Coding <br><br>
+                <label for="favColor">Favourite Color: </label>
+                <input type="color" name="FavColor" id="favColor"><br><br>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Contact Information
+                </legend>
+                <label for="address">Complete Address: </label> <br>
+                <textarea name="Complete Address" id="address" placeholder="Enter Complete Address" cols="40" rows="5"></textarea> <br><br>
+                <label for="city">City: </label>
+                <input type="text" name="City" id="city" placeholder="Enter City"><br><br>
+                <label for="postalCode">Postal Code: </label>
+                <input type="text" name="Postal Code" id="postalCode" placeholder="5 Digit Postal Code"><br><br>
+                <label for="province">Province: </label>
+                <input type="text" name="Province" id="province" placeholder="Enter Province"> <br><br>
+                <label for="country">Country: </label>
+                <input type="text" name="Country" id="country" placeholder="Enter Country"><br><br>
+                <label for="altTel">Alternative Telephone: </label>
+                <input type="tel" name="Alt Tel" id="altTel" placeholder="11 Digit Number" pattern="[0-9]{11}"><br><br>
+                <label for="website">Personal Website: </label>
+                <input type="url" name="Personal Website" id="website" placeholder="https://example.com"><br><br> 
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Student Preferences
+                </legend>
+                <label for="studyTime">Preferred Study Time: </label><br><br>
+                <input type="radio" name="Study Time" id="studyTime" value="Morning"> Morning
+                <input type="radio" name="Study Time" id="studyTime" value="Afternoon"> Afternoon
+                <input type="radio" name="Study Time" id="studyTime" value="Evening"> Evening
+                <input type="radio" name="Study Time" id="studyTime" value="Night"> Night <br><br>
+                <label for="learnMode">Preferred Learning Mode: </label><br><br>
+                <input type="radio" name="Learn Mode" id="learnMode" value="Online"> Online
+                <input type="radio" name="Learn Mode" id="learnMode" value="On Campus"> On Campus
+                <input type="radio" name="Learn Mode" id="learnMode" value="Hybrid"> Hybrid <br><br>
+                <label for="studyHours">Study Hours Per Day: </label>
+                <input type="range" name="Study Hours" id="studyHours" min="1" max="12"> <br><br>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Required Documents
+                </legend>
+                <label for="CNICDoc">CNIC Document: </label>
+                <input type="file" name="CNIC Document" id="CNICDoc" accept=".pdf .png .jpg"><br><br>
+                <label for="previousResult">Previous Result: </label>
+                <input type="file" name="Previous Result" id="previousResult" accept=".pdf .png .jpg"><br><br>
+                <label for="eduCertificate">Educational Certificate: </label>
+                <input type="file" name="Educational Certificate" id="eduCertificate" accept=".pdf .png .jpg"><br><br>
+                <label for="cv">CV: </label>
+                <input type="file" name="CV" id="cv" accept=".pdf .png .jpg"><br><br>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Account Information
+                </legend>
+                <label for="username">Username: </label>
+                <input type="text" name="Username" id="username" placeholder="Enter Username"><br><br>
+                <label for="password">Password: </label>
+                <input type="password" name="Password" id="password" placeholder="Enter Password" maxlength="12"><br><br>
+                <label for="confirmPassword">Confirm Password: </label>
+                <input type="password" name="Confirm Password" id="confirmPassword" placeholder="Confirm Password" maxlength="12"><br><br>
+                <label for="securityQuestion">Security Question: </label>
+                <input type="text" name="Security Question" id="securityQuestion" placeholder="Select or type question"><br><br>
+                <label for="securityAns">Security Answer: </label>
+                <input type="text" name="Security Answer" id="securityAns" placeholder="Enter Answer"><br><br>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Website & Search
+                </legend>
+                <label for="website">Personal Website: </label>
+                <input type="url" name="Personal Website" id="website" placeholder="https://example.com"><br><br>
+                <label for="searchKeyword">Search Keyword: </label>
+                <input type="search" name="Search Keyword" id="searchKeyword" placeholder="Search Here"><br><br>
+                <label for="skillLevel">Skill Level: </label>
+                <input type="range" name="Skill Level" id="skillLevel" min="1" max="100"> <br><br>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Declaration
+                </legend>
+                <input type="checkbox" name="Declaration" id="declaration" value="I confirm that all information provided by me is correct and complete.">I confirm that all information provided by me is correct and complete.<br><br>
+                <input type="checkbox" name="Declaration" id="declaration" value="I agree to the terms and conditions.">I agree to the terms and conditions.
+            </fieldset>
+            <br>
+            <input type="submit" value="Submit Application">
+            <input type="reset" value="Reset Form">
+    </form>
+</body>
+</html>
